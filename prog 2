@@ -1,11 +1,15 @@
 Accepted form: 
-					The acceptable strings in the language are 00,11,000,011,100,111 and so on……
+The acceptable strings in the language are aa,bb,aaa,abb,baa,bbb,etc..
+
+
 DFA 
 1.	M= (Q, ∑, δ, Q0, F) where 
 2.	Q=Set of all states = {Q0, Q1, Q2, Q3, Q4} 
 3.	∑=Input Alphabet = {0,1}
 4.	Start state is Q0 and
 5.	F=Set of all final States= {Q1 and Q2} And the transitions are defined in the transition diagram
+
+
 Input: 
 input //input string 
 Output: 
@@ -15,6 +19,17 @@ Algorithm prints a message
 “Invalid token”: If the input string contains symbols other than input alphabet
 
 
+Test cases:
+Input    Expected Output
+aa	 String accepted
+abb	 String accepted
+aba	 String not accepted
+bba0	 Invalid token
+ababaa	 String accepted
+aaaaa	 String accepted
+
+
+C Code
 #include<stdio.h>
 #include<stdlib.h>
 void main(){
