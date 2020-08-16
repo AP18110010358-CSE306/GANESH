@@ -1,6 +1,5 @@
-Description:
+Accepted string:
 The acceptable strings of the language are ε(Null string), aa, bb, abba, babbab etc.
-Deterministic Finite Automata for the given language is given below:
 
 
 DFA:
