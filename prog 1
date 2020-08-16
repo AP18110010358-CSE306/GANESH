@@ -7,9 +7,7 @@ M=(Q,∑,δ,Q0,F) Where
 Q=Set of all states ={Q0,Q1,Q2,Q3}
 ∑=Input Alphabet={a,b},
 Start state is Q0
-F=Set of all final States={ Q0}
-And the transitions are defined in
-the transition diagram
+F=Set of all final States={Q0}
 
 
 Algorithm: Language recognizer
@@ -48,13 +46,15 @@ if(state==0)
  Print ”String accepted”
 else
  Print ”String not accepted”
+
+
 Test cases:
-Input Expected Output
-aabb String accepted
-abab String accepted
-aaabb String not accepted
-aaa String not accepted
-abcd Invalid token
+Input    Expected Output
+aabb     String accepted
+abab     String accepted
+aaabb    String not accepted
+aaa      String not accepted
+abcd     Invalid token
 
 C Code
 #include<stdio.h>
@@ -113,10 +113,3 @@ void main(){
  else
  printf("\n\nString not accepted\n\n");
 }
-
-
-Test cases:
-Input 1 Output
-Input 2 Output
-Input 3 Output
-Input 4 Output
