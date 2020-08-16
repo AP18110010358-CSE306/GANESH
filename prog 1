@@ -2,6 +2,7 @@ Description:
 The acceptable strings of the language are ε(Null string), aa, bb, abba, babbab etc.
 Deterministic Finite Automata for the given language is given below:
 
+
 DFA:
 M=(Q,∑,δ,Q0,F) Where
 Q=Set of all states ={Q0,Q1,Q2,Q3}
@@ -18,6 +19,7 @@ Algorithm prints a message
 “String accepted”: If the input is acceptable by the language,
 “String not accepted” otherwise,
 “Invalid token”: If the input string contains symbols other than input alphabet.
+
 
  Method:
 state=0 //initial state
@@ -55,6 +57,7 @@ abab     String accepted
 aaabb    String not accepted
 aaa      String not accepted
 abcd     Invalid token
+
 
 C Code
 #include<stdio.h>
